@@ -1,0 +1,156 @@
+@import '../fonts/MullerUltraLight/style.css';
+
+body {
+    font-family: Muller;
+    font-size: 14px;
+}
+
+button:active,
+button:focus {
+    outline: none;
+}
+
+/* Стили для левого списка */
+.preview-cnt {
+    display: flex;
+    height: 500px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.preview-item {
+    display: flex;
+    justify-content: start;
+    cursor: pointer;
+    align-items: center;
+    margin-bottom: 0px;
+}
+
+@media screen and (max-width: 360px) {
+    .preview-description {
+        display: none;
+    }
+}
+
+.preview-image {
+    margin-right: 10px;
+    width: 20px;
+    transition-duration: .2s;
+}
+
+.preview-description {
+    color: lightgray;
+    transition: color .3s;
+}
+
+.preview-item:hover > .preview-description,
+.__selected > .preview-description {
+    color: black;
+}
+
+.preview-item:hover > .preview-image,
+.__selected > .preview-image {
+    /* правила для выделения картинок */
+    transform: translate3d(5px, 0px, 0px);
+    transition-duration: .2s;
+}
+
+.actions-cnt {
+    padding-left: 30px;
+}
+
+.action-btn {
+    margin-bottom: 5px;
+    position: relative;
+    display: block;
+    border: none;
+    background: transparent;
+    text-align: start;
+    line-height: .9rem;
+}
+
+/* Чтобы убрать анимацию */
+.action-btn::before {
+    content: ' ';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 0;
+    height: 1px;
+    background-color: black;
+    transition: width .2s;
+}
+
+.action-btn:hover:before {
+    width: 100%;
+}
+/* Сотри вот досюда */
+
+/* Блок с лого, кнопкой "черный/белый" и самой колонкой */
+.amods-logo {
+    width: 70%;
+    margin-bottom: 50px;
+}
+
+.constructor-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.color-toggle-cnt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.color-toggle-btn {
+    text-align: center;
+    position: relative;
+    border: none;
+    background: transparent;
+}
+
+.color-toggle-btn::before {
+    content: ' ';
+    position: absolute;
+    left: 0;
+    bottom: 2px;
+    width: 100%;
+    height: 0;
+    background-color: black;
+    transition: height .1s;
+}
+
+.color-toggle-btn:hover:before {
+    height: 1px;
+}
+
+.constructor-preview {
+    display: flex;
+    flex-grow: 2;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sound-system-image {
+    width: 60px;
+    margin-bottom: -4px;
+}
+
+.stand-image {
+    width: 60px;
+    transition-property:all ;
+    transition-duration: 3s;
+}
+/* Картирка интерьеров */
+.interier-cnt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.interier-image {
+    width: 100%;
+}

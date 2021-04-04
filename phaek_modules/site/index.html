@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amods</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <!-- HEADER -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Amods</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+            aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown"
+                        aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                    <div class="dropdown-menu" aria-labelledby="dropdown01">
+                        <a class="dropdown-item" href="#">Action</a>
+                        <a class="dropdown-item" href="#">Another action</a>
+                        <a class="dropdown-item" href="#">Something else here</a>
+                    </div>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+                <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+
+    <div class="container mt-5 cnt">
+        <div class="row no-gutters">
+            <div class="col-12 col-md-6">
+                <div class="row no-gutters">
+                    <div class="col-4 preview-cnt">
+                        <div class="preview-list">
+                        </div>
+                        <div class="actions-cnt">
+                            <button class="action-btn">Купить</button>
+                            <button class="action-btn">Больше богуславки</button>
+                            <button class="action-btn">Конструкция</button>
+                        </div>
+                    </div>
+                    <div class="col-8 constructor-container">
+                        <img src="assets/images/amods_logo.png" alt="Amods" class="amods-logo">
+                        <div class="color-toggle-cnt">
+                            <div class="color-toggle-text">Стиль для</div>
+                            <button class="color-toggle-btn"></button>
+                        </div>
+                        <div class="item-description">B&W Formation Duo</div>
+                        <div class="constructor-preview">
+                            <img src="" alt="Колонка" class="sound-system-image">
+                            <img src="" alt="Стойка" class="stand-image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 interier-cnt">
+                <img src="" alt="Интерьер" class="interier-image">
+            </div>
+        </div>
+    </div>
+
+    <!-- Templates -->
+    <template id="preview-item-tmpl">
+        <div class="preview-item">
+            <img src="" class="preview-image">
+            <span class="preview-description"></span>
+        </div>
+    </template>
+
+    <script type="module" src="main.js"></script>
+</body>
+
+</html>

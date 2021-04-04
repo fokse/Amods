@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Muller';
+    src: local('Muller Ultra Light'), local('Muller-Ultra-Light'),
+        url('MullerUltraLight.woff2') format('woff2'),
+        url('MullerUltraLight.woff') format('woff'),
+        url('MullerUltraLight.ttf') format('truetype');
+    font-weight: 200;
+    font-style: normal;
+  }

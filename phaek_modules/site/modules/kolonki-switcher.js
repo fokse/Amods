@@ -1,6 +1,6 @@
-import { BLACK_STANDS, WHITE_STANDS } from './constants.js';
-import { createPreviewItems } from './create-preview-items.js';
-import { kolonkiImage, colorToggleButton, previewList, interierImage } from './elements.js'
+import { BLACK_STANDS, WHITE_STANDS } from 'https://raw.githubusercontent.com/fokse/Amods/main/phaek_modules/site/modules/constants.js';
+import { createPreviewItems } from 'https://raw.githubusercontent.com/fokse/Amods/main/phaek_modules/site/modules/create-preview-items.js';
+import { kolonkiImage, colorToggleButton, previewList, interierImage } from 'https://raw.githubusercontent.com/fokse/Amods/main/phaek_modules/site/modules/elements.js'
 
 const kolonkiImageSwitcher = {
     allImages: [

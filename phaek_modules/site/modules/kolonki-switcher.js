@@ -5,7 +5,7 @@ import { kolonkiImage, colorToggleButton, previewList, interierImage } from './e
 const kolonkiImageSwitcher = {
     allImages: [
         {
-            src: '../assets/images/kolonki/black.png',
+            src: 'https://github.com/fokse/Amods/blob/main/phaek_modules/site/assets/images/kolonki/black.png?raw=true',
             text: 'Чёрных',
         },
         {

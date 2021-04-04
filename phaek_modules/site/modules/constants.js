@@ -1,8 +1,8 @@
 export const BLACK_STANDS = [
     {
-        imageUrl: '../assets/images/icon_out/m1.png',
+        imageUrl: 'https://github.com/fokse/Amods/blob/main/phaek_modules/site/assets/images/icon_out/m1.png?raw=true',
         description: 'Some descr 1',
-        previewImageUrl: '../assets/images/out/o1.png',
+        previewImageUrl: 'https://github.com/fokse/Amods/blob/main/phaek_modules/site/assets/images/out/b1.png?raw=true',
         interierImageUrl: '../assets/images/interier/i1.png'
     },
     {

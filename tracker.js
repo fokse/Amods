@@ -66,41 +66,4 @@ window.onresize = function () {
         window.location.reload(true);
     }
 };
-</script>');
-}
 </script>
-<style>
-/*Настройки стрелок слайдера*/
-#fp-nav ul li a span, .fp-slidesNav ul li a span {
-    border: 2px solid #000000;
-    background: none;
-    box-shadow: 0px 0px 10px  black;
-}
-/*Настройки стрелок слайдера*/
-.fp-controlArrow.fp-next {
-    right: 50px;
-    border-width: 38.5px 0 38.5px 34px;
-    border-color: #f30f0f00 #fb303000 #ff1c1c00 #000;
-}
-div#allrecords {margin-bottom: -70px;}
-.fp-section:last-child {z-index: -1;}
-/*Настройки стрелок слайдера*/
-.fp-controlArrow.fp-prev {
-    left: 50px;
-    width: 0;
-    border-width: 38.5px 34px 38.5px 0;
-    border-color: transparent #000 transparent transparent;
-}
-/*Настройки подписей навигации*/
-#fp-nav ul li .fp-tooltip {
-    color: #000000;
-    font-family: 'Muller',Arial,sans-serif;
-}
-/*Настройки подписей навигации*/
-#fp-nav ul li:hover .fp-tooltip, #fp-nav.fp-show-active a.active + .fp-tooltip {
-    -webkit-transition: padding 0.6s ease-in;
-    transition: padding 0.6s ease-in;
-    padding-right: 10px;
-}
-
-</style>
